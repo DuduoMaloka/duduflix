@@ -1,0 +1,66 @@
+body{
+    color:rgb(0, 145, 155);
+    background:rgb(4, 4, 84) ;
+    margin: 0px; 
+    font-family: "Nanum Myeongjo", serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px black;
+    padding: 20px;
+    font-size: 22px;
+    color: rgb(0, 145, 155);
+}
+
+.chamada{
+    background: rgb(4, 4, 84) ;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+
+margin-right: 5%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img{
+    height: 150px;
+}
+
+.categoria-videos{
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 150px;
+} 
+
+.categoria-videos img:hover {
+    opacity: 2.0;
+    border: 1px solid rgb(43, 6, 77);
+
+}
+
+.categoria h2{
+    color:  rgb(0, 145, 155);
+}
